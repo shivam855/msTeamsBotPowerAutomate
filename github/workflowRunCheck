@@ -1,4 +1,17 @@
-curl --location --request GET 'https://api.github.com/repos/{owner}/{repo}/actions/runs/3312912449' \
+*Method :   GET
+*URI    :   https://api.github.com/repos/{owner}/{repo}/actions/runs/{run id}
+Accept  :   application/vnd.github.everest-preview+json
+Authorization : Bearer <token>
+Body    :   {
+              "ref": "main"
+            }
+
+*Authentication : Basic
+*Username   : ""
+*Password   : ****
+
+
+curl --location --request GET 'https://api.github.com/repos/{owner}/{repo}/actions/runs/{run id}' \
 --header 'authorization: Bearer <token>' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: _octo=GH1.1.1343356819.1666694358; logged_in=no' \
