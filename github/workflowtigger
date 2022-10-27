@@ -1,0 +1,11 @@
+*Method :   POST
+*URI    :   https://api.github.com/repos/shivam855/cypress/actions/workflows/test.yml/dispatches
+Accept  :   application/vnd.github.everest-preview+json
+Authorization : Bearer <token>
+Body    :   {
+              "ref": "main"
+            }
+
+*Authentication : Basic
+*Username   : ""
+*Password   : ****
